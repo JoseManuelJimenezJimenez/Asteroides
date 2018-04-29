@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jose.asteroides.Asteroides">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:padding="30dip"
+        tools:context=".Asteroides">
+        <TextView android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/titolAplicacio"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:layout_marginBottom="20dip"/>
+        <Button
+            android:id="@+id/Button01"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:text="@string/Arrancar"/>
+        <Button
+            android:id="@+id/Button02"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:text="@string/Configurar"/>
+        <Button
+            android:id="@+id/Button03"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:text="@string/QuantA"/>
+        <Button
+            android:id="@+id/Button04"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:text="@string/Sortir"/>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
